@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    height: 3000px;
+}
+nav{
+ position: fixed !important;
+z-index: 10000;
+width: 100%;
+}
+.d-block{
+    height: 100vh;
+}
+.my-3{
+    margin: 0 5px;
+}
+.img-header{
+    margin: 0 10px;
+}
+.underline-down{
+    width: 200px;
+    height: 3px;
+    background-color: black;
+}
+.img-header{
+    background-size: cover;
+}
+.div11{
+    opacity: .7;
+    border-radius: 5px;
+
+}
+.vf{
+    margin-left: 10px;
+}
+.div111{
+    width: 700px;
+}
+aside{
+    position: fixed;
+    left: 0px;
+    top: 300px;
+    z-index: 3;
+    background-attachment: fixed;
+}
+.icons i{
+    font-size: 50px;
+    display: block;
+    line-height: 70px;
+}
+.icons i:hover{
+    color: black;
+}
+.btn23,.btn24{
+    margin-left: 1300px;
+}
+.btn24{
+    margin-top: 50px;
+}
+.div17,.divj{
+    position: absolute;
+}
+.arrow{
+    width: 100%;
+    height: 50px;
+}
+.arrow i{
+    margin-left: 1400px;
+    font-size: 40px;
+}
+.welc{
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+.center{
+    padding: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 20px;
+}
+.btnc1{
+    margin-left: 20px;
+}
+.ia{
+    margin-left: 1300px;
+}
+.po span{
+    color: blue;
+}
+.po{
+    margin-top: 20px;
+}
+.w1{
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.btnt{
+    margin-top: 10px;
+}
+.overlay{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay2{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/R.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* starrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt team-sectionlll/// */
+.team-h{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 44%;
+}
+.team-underline{
+    display: inline-block;
+    width: 170px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 43%;
+    /* margin-top: 100px; */
+}
+.team-container{
+    width: 90%;
+    margin: auto;
+}
+.team-content{
+    overflow: auto;
+    position: relative;
+}
+.team-item{
+    width: 30%;
+    text-align: center;
+    float: left;
+    background-color: grey;
+    border: 3px solid grey;
+    padding: 14 18;
+    margin-top: 100px;
+    position: relative;
+}
+.team-img{
+    position: relative;
+}
+.team-item img{
+    width: 100%;
+    height: 200px;
+}
+.team-item2{
+    margin: 0 5%;
+    margin-top: 100px;
+}
+.team-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+.team-img a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+    margin-left: auto;
+}
+.team-icons i{
+    line-height: 40px;
+    font-size: 30px;
+}
+.team-info-p,.team-info-h{
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.team-item:hover .team-info-p{
+    color: blue;
+}
+.team-item:hover .team-info-h{
+    color: white;
+}
+.team-item:hover .team-icons{
+    opacity: 1;
+    visibility: visible;
+}
+.team-item::after{
+    position: absolute;
+    content:"";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: black;
+    transition: 2s;
+    opacity: 0;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+.team-item::before{
+    position: absolute;
+    content:"";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    transition: 2s;
+    opacity: 0;
+}
+.team-item:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+.item123{
+    margin-left: 70px;
+}
+.ovd{
+    margin-top: 100px;
+}
+/* enddddddddddddddddddddddddddddddd team-section//////////////////////////////////// */
+.img{
+    width: 130px;
+    height: 200px;
+    background-image: url(../images/Cairo-citadel-02.jpg);
+    background-size: cover;
+    margin-top: 70px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.img1{
+    width: 130px;
+    height: 200px;
+    background-image: url(../images/5myd1qyr6hy51.webp);
+    background-size: cover;
+    margin-top: 70px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.img2{
+    width: 130px;
+    height: 200px;
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+    margin-top: 70px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.item01,.item011,.item012{
+    width: 30%;
+    height: 400px;
+    background-image: url(../images/5myd1qyr6hy51.webp);
+    background-size: cover;
+    border-radius: 20px;
+    transition: 2s;
+    
+}
+.item011{
+    background-image: url(../images/alexandria-egypt-normal.jpg);
+}
+.item012{
+    background-image: url(../images/iStock-466941898.jpg);
+    background-size: cover;
+}
+.item01:hover{
+    transform:scale(.9,.9) ;
+}
+.item011:hover{
+    transform:scale(.9,.9) ;
+}
+.item012:hover{
+    transform:scale(.9,.9) ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.o1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    overflow: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* start background-1 */
+.container-background-1{
+    position: relative;
+    background-image: url("../images/alexandria-egypt-normal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+}
+.background-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    overflow: auto;
+}
+/* end fixed1 */
+.dsa{
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+.imgdsa{
+    background-image: url(../images/5myd1qyr6hy51.webp);
+    background-size: cover;
+    width: 350px;
+    height: 100%;
+    transition: 2s;
+}
+.write{
+    width: 900px ;
+    color: aliceblue;
+    height: 100%;
+    padding: 20px;
+}
+.imgdsa:hover{
+    transform: scale(1.1,1.1);
+    
+}
+.hy{
+    background-image: url(../images/2-5.jpg);
+}
+.hj{
+    background-image: url(../images/view.jpg);
+}
+.hg{
+    background-image: url(../images/Aerial-view-of-the-Mosque-of-Amr-ibn-al-Aas.webp);
+}
+.hf{
+    background-image: url(../images/iStock-466941898.jpg);
+}
+.hb{
+    background-image: url(../images/maxresdefault.jpg);
+}
+.icon12{
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon12:hover{
+    background-color: black;
+}
+.tgf{
+    text-decoration: none;
+    color: aliceblue;
+}
+.progress{
+    width: 200px;
+    height: 5px;
+}
+.icv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+.u i{
+    font-size: 100px;
+    color: brown;
+}
+.u p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.u{
+    padding: 15px;
+    width: 20%;
+    height: 150px;
+    background-color: rgb(149, 146, 146);
+    border-radius: 10px;
+}
+.father{
+    width: 100%;
+    height: 400px;
+    margin-top: 45px;
+}
+.fs1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.s12{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    padding: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+}
+.imgs{
+    background-image: url(../images/Aerial-view-of-the-Mosque-of-Amr-ibn-al-Aas.webp) ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.jk{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.wer{
+    background-image: url(../images/iStock-466941898.jpg);
+}
+.wed{
+    background-image: url(../images/alexandria-egypt-normal.jpg);
+}
+.cx{
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.fs2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.h234{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+hr{
+    background-color: aliceblue;
+}
+.hidden{
+    border: 2px solid grey;
+    width: 30%;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    z-index: 6;
+    left: 35%;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+#divhidden:active #div1hidden{
+    display: block;
+}
